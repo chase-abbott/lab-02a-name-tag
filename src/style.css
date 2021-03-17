@@ -1,22 +1,21 @@
 main {
     border-radius: 25px;
-    height: 200px;
+    height: 220px;
     width: 350px;
     display: grid;
     grid-template-areas: "top"
                          "middle"
                          "bottom";
-    grid-template-rows: 95px, 95px, 10px;
+   
 }
 
 .top {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     grid-area: top;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    height: 100px ;
     background-color: red;
+   
 }
 
 .hello {
@@ -26,6 +25,7 @@ main {
     font-weight: bold;
     display: flex;
     justify-content: center;
+
 }
 
 .name {
@@ -40,11 +40,14 @@ main {
     grid-area: middle;
     color: black;
     background-color: white;
+    height: 60px;
+    font-size: 24px;
+    font-family: "Lucida Handwriting";
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    font-family: "Lucida Handwriting";
+    
+  
 }
 
 .bottom {
