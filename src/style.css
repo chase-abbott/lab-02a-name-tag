@@ -1,0 +1,55 @@
+main {
+    border-radius: 25px;
+    height: 200px;
+    width: 350px;
+    display: grid;
+    grid-template-areas: "top"
+                         "middle"
+                         "bottom";
+    grid-template-rows: 95px, 95px, 10px;
+}
+
+.top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    grid-area: top;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.hello {
+    font-size: 48px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;   
+    font-family: arial;
+}
+
+.middle {
+    grid-area: middle;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Lucida Handwriting";
+}
+
+.bottom {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    grid-area: bottom;
+    background-color: red;
+}
