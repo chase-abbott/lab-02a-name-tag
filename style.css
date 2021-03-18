@@ -9,7 +9,7 @@ main {
    
 }
 
-.top {
+#top {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     grid-area: top;
@@ -36,7 +36,7 @@ main {
     font-family: arial;
 }
 
-.middle {
+#middle {
     grid-area: middle;
     color: black;
     background-color: white;
@@ -46,13 +46,26 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  
 }
 
-.bottom {
+#bottom {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     grid-area: bottom;
     background-color: red;
+}
+
+#pink {
+    border-radius: 5px;
+    background-color: pink;
+}
+
+#light-green {
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+#light-blue {
+    border-radius: 5px;
+    background-color: lightblue;
 }

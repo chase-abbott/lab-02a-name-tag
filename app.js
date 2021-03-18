@@ -1,4 +1,4 @@
-const middle = document.getElementById('text');
+const middle = document.getElementById('middle');
 const top = document.getElementById('top');
 const bottom = document.getElementById('bottom');
 const myButton = document.getElementById('my-button');
@@ -9,11 +9,11 @@ const lightBlue = document.getElementById('light-blue');
 const pronounInput = document.getElementById('pronoun-input');
 const pronoun = document.getElementById('pronoun');
 
-
+console.log(myInput);
 myButton.addEventListener ('click', () => {
     const userTyped = myInput.value;
-    text.textContent = userTyped;
-    text.style.color = 'pink';   
+    middle.textContent = userTyped;
+    middle.style.color = 'pink';   
 })
 
 pink.addEventListener ('click', () => {
