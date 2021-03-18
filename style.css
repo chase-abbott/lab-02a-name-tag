@@ -6,8 +6,19 @@ main {
     grid-template-areas: "top"
                          "middle"
                          "bottom";
+    
    
 }
+
+main:hover {
+    transform: rotateZ(20deg);
+    transform: scale(1.25);
+}
+
+
+   
+}
+
 
 .top {
     border-top-left-radius: 25px;
