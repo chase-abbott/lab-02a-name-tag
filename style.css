@@ -15,6 +15,11 @@ main:hover {
     transform: scale(1.25);
 }
 
+
+   
+}
+
+
 .top {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
